@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1320px;
+}
+header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  height: 120px;
+}
+.tituloPrincipal {
+  margin-top: 8rem;
+  text-align: center;
+  color: red;
+  font-size: 4.5rem;
+}
+.nav {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.nav__link:hover {
+  color: aliceblue;
+}
+
+.introPadre {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 4rem;
+}
+.introPadre__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  font-size: 1.5rem;
+  padding-right: 2rem;
+}
+.boton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 50%;
+  align-items: center;
+  margin-top: 2rem;
+  border-radius: 2rem;
+}
+.boton:hover {
+  background-color: black;
+}
+.introPadre__boton {
+  padding: 15px 32px;
+}
+
+.imgPrincipal {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.tarjetasServicios {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.tarjetasServicios__Servicio {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  border-radius: 1rem;
+  padding: 2rem;
+  align-items: center;
+  width: 50%;
+}
+.imgServicio {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+  padding-bottom: 2rem;
+}
+.h2Servicios {
+  margin-top: 8rem;
+  text-align: center;
+  color: red;
+  font-size: 4.5rem;
+}
+.tarjetasServicios__boton {
+  padding: 10px 0px 10px 0px;
+  position: relative;
+  bottom: 1px;
+}
+.tarjetasServicios__Servicio__titulo {
+  padding-bottom: 2rem;
+}
+
+#p2 {
+  margin-bottom: 2rem;
+}
+#p3 {
+  margin-bottom: 3rem;
+}
+footer {
+  background-color: black;
+}
+
+.footerContenido {
+  color: aliceblue;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__iconos_imagen {
+  margin-left: 3rem;
+}
+
+/* PAGINA QUIENES SOMOS */
+.introPadre__texto__qs {
+  padding: 2% 0% 0% 2%;
+  text-align: justify;
+}
+
+.divVideoQuienesSomos {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/* Pagina contacto */
+.bannerContacto {
+  width: 100%;
+  max-width: 100%;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  width: 100%;
+}
+fieldset {
+  border-radius: 20px;
+  padding: 15px;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  gap: 5px;
+}
+
+/* Pagina sucursales */
+.contenedorSucursales__sucursal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.tarjetaSucursal {
+  display: flex;
+  flex-direction: column;
+}
+.tarjetaSucursal h2 {
+  color: blueviolet;
+}
+.tarjetaSucursal__itemlist {
+  padding-top: 3rem;
+}
+hr {
+  margin-top: 3rem;
+}
+
+/* Pagina servicios */
+.introPadre__texto .titulos {
+  padding-bottom: 3rem;
+}
+.itemlistServicios {
+  padding: 1rem 0 1rem 0;
+  text-align: left;
+}
+
+.introsection2 {
+  padding-bottom: 4rem;
+}
