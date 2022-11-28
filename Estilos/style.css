@@ -216,3 +216,92 @@ hr {
 .introsection2 {
   padding-bottom: 4rem;
 }
+
+@media (max-width: 1024px) {
+  /*Ajustes comunes a todas las páginas*/
+  .nav__list {
+    flex-direction: column;
+  }
+  .logoExtintoresMza {
+    max-width: 80%;
+  }
+  .introPadre {
+    flex-direction: column-reverse;
+  }
+  .introPadre__texto {
+    padding-right: 0rem;
+    padding-top: 2rem;
+  }
+  .tituloPrincipal {
+    margin-top: 3rem;
+  }
+  .imgPrincipal {
+    width: 100%;
+  }
+  /*Ajuste pagina de inicio*/
+  .h2Servicios {
+    margin-top: 4rem;
+  }
+
+  .tarjetasServicios {
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  #p2 {
+    margin-bottom: 0rem;
+  }
+  #p3 {
+    margin-bottom: 0rem;
+  }
+  .tarjetasServicios__Servicio {
+    width: 100%;
+  }
+
+  /*ajuste pagina quienes somos*/
+  .introPadre__texto__qs {
+    padding-bottom: 2rem;
+  }
+  .divVideoQuienesSomos {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  /*pagina sucursales*/
+  .tarjetaSucursal {
+    padding-right: 2rem;
+  }
+  .contenedorSucursales__sucursal {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3rem;
+  }
+  .tarjetaSucursal h2 {
+    font-size: 2.5rem;
+  }
+  iframe {
+    padding-top: 2rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .logoExtintoresMza {
+    max-width: 50%;
+  }
+  .tituloPrincipal {
+    font-size: 3rem;
+  }
+
+  /* Pagina quienes somos */
+
+  .tituloPrincipal {
+    color: blue;
+  }
+
+  .tarjetasServicios img {
+    width: 100%;
+  }
+  .nav__link {
+    font-size: 0.5rem;
+  }
+}
