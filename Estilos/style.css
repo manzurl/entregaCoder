@@ -79,9 +79,43 @@ header {
   padding: 15px 32px;
 }
 
+.btnAnimado {
+  border: 2px solid black;
+  background: none;
+  color: red;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  padding: 20px 40px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.btnAnimado:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 100%;
+  background-color: red;
+  z-index: -1;
+  border-radius: 0 0 50% 50%;
+  transition: all 0.5s;
+}
+
+.btnAnimado:hover:before {
+  height: 190%;
+}
+
+.btnAnimado:hover {
+  color: white;
+  font-size: 1.5rem;
+}
+
 .imgPrincipal {
-  width: 50%;
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   border-radius: 25px;
 }
@@ -90,22 +124,28 @@ header {
   margin-top: 8rem;
   margin-bottom: 8rem;
   display: flex;
-  justify-content: center;
-  align-items: stretch;
+  justify-content: stretch;
+  align-items: center;
   gap: 1rem;
+  width: 80%;
+  margin-left: 10%;
+}
+.containerServicios {
+  background-image: linear-gradient(RED, YELLOW);
+  padding-bottom: 3rem;
 }
 
 .tarjetasServicios__Servicio {
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+  border: 1px solid black;
   border-radius: 1rem;
   padding: 2rem;
   align-items: center;
   width: 50%;
+  height: 580px;
 }
 .imgServicio {
-  width: 50%;
   max-width: 100%;
   height: auto;
   border-radius: 25px;
@@ -113,24 +153,31 @@ header {
 }
 .h2Servicios {
   margin-top: 8rem;
+  padding-top: 4rem;
   text-align: center;
-  color: red;
+  color: black;
   font-size: 4.5rem;
 }
 .tarjetasServicios__boton {
   padding: 10px 0px 10px 0px;
   position: relative;
   bottom: 1px;
+  padding-bottom: 1rem;
 }
 .tarjetasServicios__Servicio__titulo {
   padding-bottom: 2rem;
 }
+.tservicio {
+  padding-bottom: 55px;
+}
 
 #p2 {
   margin-bottom: 2rem;
+  height: 500px;
 }
 #p3 {
   margin-bottom: 3rem;
+  height: 500px;
 }
 footer {
   background-color: black;
@@ -219,6 +266,9 @@ hr {
 
 @media (max-width: 1024px) {
   /*Ajustes comunes a todas las páginas*/
+  header {
+    position: relative;
+  }
   .nav__list {
     flex-direction: column;
   }
@@ -236,7 +286,7 @@ hr {
     margin-top: 3rem;
   }
   .imgPrincipal {
-    width: 100%;
+    max-width: 100%;
   }
   /*Ajuste pagina de inicio*/
   .h2Servicios {
@@ -250,12 +300,18 @@ hr {
   }
   #p2 {
     margin-bottom: 0rem;
+    height: auto;
   }
   #p3 {
     margin-bottom: 0rem;
+    height: auto;
   }
   .tarjetasServicios__Servicio {
     width: 100%;
+    height: auto;
+  }
+  .tarjetasServicios__Servicio__titulo {
+    height: auto;
   }
 
   /*ajuste pagina quienes somos*/
