@@ -184,6 +184,7 @@ header {
 }
 footer {
   background-color: black;
+  padding-bottom: 1rem;
 }
 
 .footerContenido {
@@ -271,7 +272,7 @@ hr {
   height: 569px !important;
 }
 .card p {
-  min-height: 120px;
+  min-height: 144px;
 }
 
 @media (max-width: 1024px) {
