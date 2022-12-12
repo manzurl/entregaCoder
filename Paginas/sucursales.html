@@ -5,31 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sucursales</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../Estilos/style.css" />
   </head>
 
   <body>
-    <header class="headerflex">
+    <header>
       <div class="container">
-        <nav class="nav">
-          <a href="">
-            <img
-              class="logoExtintoresMza"
-              src="../Imagenenes/Logo extintores.png"
-              alt="Logo extintroes mza"
-            />
-          </a>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="../index.html">Inicio</a></li>
-            <li>
-              <a class="nav__link" href="quienesSomos.html">Quienes Somos</a>
-            </li>
-            <li><a class="nav__link" href="servicios.html">Servicios</a></li>
-            <li><a class="nav__link" href="contacto.html">Contacto</a></li>
-            <li>
-              <a class="nav__link" href="sucursales.html">Sucursales</a>
-            </li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"
+              ><img class="img-fluid" src="../Imagenenes/Logo extintores.png" alt=""
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="sucursales.html">Sucursales</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
@@ -42,15 +67,9 @@
             <div class="tarjetaSucursal tarjeta">
               <h2>Sucursal San Martin</h2>
               <ul>
-                <li class="tarjetaSucursal__itemlist">
-                  <b>TELEFONO:</b> 2634 - 1526596
-                </li>
-                <li class="tarjetaSucursal__itemlist">
-                  <b>DIRECCIÓN:</b> Perrupato 789 - San Martin - Mza
-                </li>
-                <li class="tarjetaSucursal__itemlist">
-                  <b>HORARIO:</b> Lunes a Vierdes de 9:00 a 18:00 hs
-                </li>
+                <li class="tarjetaSucursal__itemlist lead"><b>TELEFONO:</b> 2634 - 1526596</li>
+                <li class="tarjetaSucursal__itemlist lead"><b>DIRECCIÓN:</b> Perrupato 789 - San Martin - Mza</li>
+                <li class="tarjetaSucursal__itemlist lead"><b>HORARIO:</b> Lunes a Vierdes de 9:00 a 18:00 hs</li>
               </ul>
             </div>
             <iframe
@@ -68,15 +87,9 @@
             <div class="tarjetaSucursal tarjeta">
               <h2>Sucursal Maipu</h2>
               <ul>
-                <li class="tarjetaSucursal__itemlist">
-                  <b>TELEFONO:</b> 261 - 4275689
-                </li>
-                <li class="tarjetaSucursal__itemlist">
-                  <b>DIRECCIÓN:</b> Maza 786 - Maipu - Mza
-                </li>
-                <li class="tarjetaSucursal__itemlist">
-                  <b>HORARIO:</b> Lunes a Vierdes de 9:00 a 18:00 hs
-                </li>
+                <li class="tarjetaSucursal__itemlist lead"><b>TELEFONO:</b> 261 - 4275689</li>
+                <li class="tarjetaSucursal__itemlist lead"><b>DIRECCIÓN:</b> Maza 786 - Maipu - Mza</li>
+                <li class="tarjetaSucursal__itemlist lead"><b>HORARIO:</b> Lunes a Vierdes de 9:00 a 18:00 hs</li>
               </ul>
             </div>
             <iframe
@@ -96,13 +109,9 @@
     <footer>
       <div class="container">
         <div class="footerContenido">
-          <p class="footer__p">
-            TEL : 26126161 / MAIL: extintoresmza@gmail.com
-          </p>
+          <p class="footer__p">TEL : 26126161 / MAIL: extintoresmza@gmail.com</p>
           <div class="footer__iconos">
-            <a href="www.google.com" class="footer__iconos_imagen"
-              ><img src="../Imagenenes/whatsapp.png" alt=""
-            /></a>
+            <a href="www.google.com" class="footer__iconos_imagen"><img src="../Imagenenes/whatsapp.png" alt="" /></a>
             <a href="www.google.com" class="footer__iconos_imagen"
               ><img src="../Imagenenes/instagram (4).png" alt=""
             /></a>
@@ -110,5 +119,11 @@
         </div>
       </div>
     </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

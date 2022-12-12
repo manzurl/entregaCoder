@@ -213,6 +213,7 @@ footer {
 
 /* Pagina contacto */
 .bannerContacto {
+  padding-top: 5.83rem;
   width: 100%;
   max-width: 100%;
 }
@@ -231,7 +232,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100px;
+  width: 100%;
   gap: 5px;
 }
 
@@ -273,6 +274,10 @@ hr {
 }
 .card p {
   min-height: 144px;
+}
+.introSection h2 {
+  color: red;
+  text-decoration: underline;
 }
 
 @media (max-width: 1024px) {
@@ -382,13 +387,13 @@ hr {
 /*estilos para pagina indexbs*/
 
 .nav-link {
-  color: red !important;
+  color: red;
 }
 .nav-link:hover {
-  color: white !important;
+  color: white;
 }
 .seccion1 {
-  padding-top: 10rem !important;
+  padding-top: 10rem;
 }
 .seccion1 h1 {
   color: red;

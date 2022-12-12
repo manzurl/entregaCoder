@@ -5,122 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servicios</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../Estilos/style.css" />
   </head>
 
   <body>
-    <header class="headerflex">
+    <header>
       <div class="container">
-        <nav class="nav">
-          <a href="">
-            <img class="logoExtintoresMza"
-              src="../Imagenenes/Logo extintores.png"
-              alt="Logo extintroes mza"
-            />
-          </a>
-          <ul class="nav__list">
-            <li><a class="nav__link" href="../index.html">Inicio</a></li>
-            <li>
-              <a class="nav__link" href="quienesSomos.html">Quienes Somos</a>
-            </li>
-            <li><a class="nav__link" href="servicios.html">Servicios</a></li>
-            <li><a class="nav__link" href="contacto.html">Contacto</a></li>
-            <li><a class="nav__link" href="sucursales.html">Sucursales</a></li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand ms-5" href="#"
+              ><img class="img-fluid" src="../Imagenenes/Logo extintores.png" alt=""
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarSupportedContent">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="quienesSomos.html">Quienes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="sucursales.html">Sucursales</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
+    <main>
+      <h1 class="tituloPrincipal">Servicios</h1>
 
-  <main>
-    <h1 class="tituloPrincipal">Servicios</h1>
-
-    <article>
-      <section class="introSection">
-        <div class="container">
-          <div class="introPadre">
-            <div class="introPadre__texto">
-              <h2 class="titulos">Mantenimiento De Extintores</h2>
-              <p>En Extintores Mendoza nos ocupamos en mantener su equipo contra incendio en excelentes condiciones de uso, por lo cual nuestros servicios de mantenimiento y recarga de extintores son realizados en nuestro taller a través de la correcta implementación de equipos tecnológicos avanzados, utilizando solo refacciones originales, operados por personal capacitado, certificado y con una amplia experiencia.
-  
-                Realizamos el servicio de recarga, mantenimiento preventivo y correctivo, cumpliendo con los requisitos de la NOM-154-SCFI-2005 en las categorías 1, 2, 3, 4, y 5 el cual es avalado en nuestro dictamen No. ICN00280 emitido por una organización externa debidamente certificada.</p>
+      <article>
+        <section class="introSection">
+          <div class="container">
+            <div class="introPadre">
+              <div class="introPadre__texto">
+                <h2 class="titulos">Mantenimiento De Extintores</h2>
+                <p class="lead">
+                  En Extintores Mendoza nos ocupamos en mantener su equipo contra incendio en excelentes condiciones de
+                  uso, por lo cual nuestros servicios de mantenimiento y recarga de extintores son realizados en nuestro
+                  taller a través de la correcta implementación de equipos tecnológicos avanzados, utilizando solo
+                  refacciones originales, operados por personal capacitado, certificado y con una amplia experiencia.
+                  Realizamos el servicio de recarga, mantenimiento preventivo y correctivo, cumpliendo con los
+                  requisitos de la NOM-154-SCFI-2005 en las categorías 1, 2, 3, 4, y 5 el cual es avalado en nuestro
+                  dictamen No. ICN00280 emitido por una organización externa debidamente certificada.
+                </p>
                 <button class="btnAnimado">Consultanos</button>
               </div>
-            <img
-              class="imgPrincipal"
-              src="../Imagenenes/extintores-tipos.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </section>
-    </article>
-
-    <hr>
-
-    <article>
-      <section class="introSection">
-        <div class="container">
-          <div class="introPadre">
-            <div class="introPadre__texto">
-              <h2 class="titulos">Capacaitaciones</h2>
-              <p>Brinadamos servicios de capacitaciones en distintas temáticas relacionados a sistemas y privención de incendios. A continuación algunas de las tematicas brindadas</p>
-              <ul>
-                <li class="itemlistServicios">Uso de extintores</li>
-                <li class="itemlistServicios">Prevención de incendio y sismos</li>
-                <li class="itemlistServicios">Rescate en espacios confinados</li>
-                <li class="itemlistServicios">Primeros auxilios RCP</li>
-              </ul>
-              <button class="btnAnimado">Consultanos</button>
+              <img class="imgPrincipal" src="../Imagenenes/extintores-tipos.jpg" alt="" />
             </div>
-            <img
-              class="imgPrincipal"
-              src="../Imagenenes/extintores-tipos.jpg"
-              alt=""
-            />
           </div>
-        </div>
-      </section>
-    </article>
-    <hr>
-    <article>
-      <section class="introSection introsection2">
-        <div class="container">
-          <div class="introPadre">
-            <div class="introPadre__texto">
-              <h2 class="titulos">Redes de Incendio</h2>
-              <p>Las Instalaciones contra incendios canalizan la ayuda a través de los agentes extintores que se utilizan de manera automática o manual.El funcionamiento óptimo de una red contra incendio dependerá exclusivamente de que se cumplan todos los procedimientos de revisión, dependiendo además del Nivel que tenga la Instalación que desea protegerse de futuros incendios.</p>
-              <br>
-              <p>En Extintores Mendoza nos especializamos tanto en diseño de la red como en en su mantenmiento.</p>
+        </section>
+      </article>
 
-              <button class="btnAnimado">Consultanos</button>
+      <hr />
+
+      <article>
+        <section class="introSection">
+          <div class="container">
+            <div class="introPadre">
+              <div class="introPadre__texto">
+                <h2 class="titulos">Capacaitaciones</h2>
+                <p class="lead">
+                  Brinadamos servicios de capacitaciones en distintas temáticas relacionados a sistemas y privención de
+                  incendios. A continuación algunas de las tematicas brindadas
+                </p>
+                <ul>
+                  <li class="itemlistServicios lead">Uso de extintores</li>
+                  <li class="itemlistServicios lead">Prevención de incendio y sismos</li>
+                  <li class="itemlistServicios lead">Rescate en espacios confinados</li>
+                  <li class="itemlistServicios lead">Primeros auxilios RCP</li>
+                </ul>
+                <button class="btnAnimado">Consultanos</button>
+              </div>
+              <img class="imgPrincipal" src="../Imagenenes/extintores-tipos.jpg" alt="" />
             </div>
-            <img
-              class="imgPrincipal"
-              src="../Imagenenes/extintores-tipos.jpg"
-              alt=""
-            />
           </div>
-        </div>
-      </section>
-    </article>
+        </section>
+      </article>
+      <hr />
+      <article>
+        <section class="introSection introsection2">
+          <div class="container">
+            <div class="introPadre">
+              <div class="introPadre__texto">
+                <h2 class="titulos">Redes de Incendio</h2>
+                <p class="lead">
+                  Las Instalaciones contra incendios canalizan la ayuda a través de los agentes extintores que se
+                  utilizan de manera automática o manual.El funcionamiento óptimo de una red contra incendio dependerá
+                  exclusivamente de que se cumplan todos los procedimientos de revisión, dependiendo además del Nivel
+                  que tenga la Instalación que desea protegerse de futuros incendios.
+                </p>
 
-    <footer>
-      <div class="container">
-        <div class="footerContenido">
-          <p class="footer__p">
-            TEL : 26126161 / MAIL: extintoresmza@gmail.com
-          </p>
-          <div class="footer__iconos">
-            <a href="www.google.com" class="footer__iconos_imagen"
-              ><img src="../Imagenenes/whatsapp.png" alt=""
-            /></a>
-            <a href="www.google.com" class="footer__iconos_imagen"
-            ><img src="../Imagenenes/instagram (4).png" alt=""
-            /></a>
+                <p class="lead">
+                  En Extintores Mendoza nos especializamos tanto en diseño de la red como en en su mantenmiento.
+                </p>
+
+                <button class="btnAnimado">Consultanos</button>
+              </div>
+              <img class="imgPrincipal" src="../Imagenenes/extintores-tipos.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+      </article>
+
+      <footer>
+        <div class="container">
+          <div class="footerContenido">
+            <p class="footer__p">TEL : 26126161 / MAIL: extintoresmza@gmail.com</p>
+            <div class="footer__iconos">
+              <a href="www.google.com" class="footer__iconos_imagen"><img src="../Imagenenes/whatsapp.png" alt="" /></a>
+              <a href="www.google.com" class="footer__iconos_imagen"
+                ><img src="../Imagenenes/instagram (4).png" alt=""
+              /></a>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-  
-  </main>
+      </footer>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
 </html>
