@@ -16,6 +16,7 @@
   height: 120px;
 }
 .tituloPrincipal {
+  margin-top: 10rem;
   margin-top: 8rem;
   text-align: center;
   color: red;
@@ -299,7 +300,7 @@ hr {
     padding-top: 2rem;
   }
   .tituloPrincipal {
-    margin-top: 3rem;
+    margin-top: 9rem;
   }
   .imgPrincipal {
     max-width: 100%;
@@ -366,10 +367,6 @@ hr {
 
   /* Pagina quienes somos */
 
-  .tituloPrincipal {
-    color: blue;
-  }
-
   .tarjetasServicios img {
     width: 100%;
   }
@@ -381,6 +378,9 @@ hr {
   }
   .card p {
     min-height: auto;
+  }
+  .bannerContacto {
+    margin-top: 0rem;
   }
 }
 
