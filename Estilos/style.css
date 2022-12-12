@@ -267,6 +267,13 @@ hr {
   padding-bottom: 4rem;
 }
 
+.card {
+  height: 569px !important;
+}
+.card p {
+  min-height: 120px;
+}
+
 @media (max-width: 1024px) {
   /*Ajustes comunes a todas las páginas*/
   header {
@@ -363,6 +370,12 @@ hr {
   .nav__link {
     font-size: 0.5rem;
   }
+  .card {
+    height: auto !important;
+  }
+  .card p {
+    min-height: auto;
+  }
 }
 
 /*estilos para pagina indexbs*/
@@ -374,7 +387,7 @@ hr {
   color: white !important;
 }
 .seccion1 {
-  padding-top: 18rem !important;
+  padding-top: 10rem !important;
 }
 .seccion1 h1 {
   color: red;
