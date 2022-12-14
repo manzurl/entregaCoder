@@ -1,0 +1,17 @@
+footer {
+  /* Anidamiento en SAS*/
+  background-color: black;
+  padding-bottom: 1rem;
+
+  .footerContenido {
+    color: aliceblue;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .footer__iconos_imagen {
+      margin-left: 3rem;
+    }
+  }
+}
