@@ -1,0 +1,18 @@
+/*estilos para pagina index*/
+@import "variables";
+.nav-link {
+  color: $color-rojo;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.seccion1 {
+  padding-top: 10rem;
+
+  h1 {
+    color: $color-rojo;
+    font-size: 4rem !important;
+  }
+}
